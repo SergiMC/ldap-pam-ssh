@@ -1,5 +1,4 @@
-# SSH ldap+pam+ssh
-
+# SSH PAM
 ## @edt Sergi Muñoz Carmona ASIX M06 2018-2019
 
 Podeu trobar les imatges docker al Dockerhub de [sergimc](https://hub.docker.com/u/sergimc/)
