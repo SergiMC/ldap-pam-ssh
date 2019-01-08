@@ -1,4 +1,4 @@
-# PAM
+# LDAP
 ## @edt Sergi Muñoz Carmona ASIX M06-ASO Curs 2018-2019
 
 Podeu trobar les imatges docker al Dockerhub de [sergimc](https://hub.docker.com/u/sergimc/)
