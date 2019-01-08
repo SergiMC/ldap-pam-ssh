@@ -12,7 +12,7 @@ Per posar en funcionament aquest model només es necessita un servidor ldap.
 #### Execució
 
 ```
-docker run --rm --name ldap --hostname ldap --network netldap -d sergimc/ldapssh:18base
+docker run --rm --name ldap --hostname ldap --network netssh -d sergimc/ldapssh:18base
 
 ```
 
