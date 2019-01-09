@@ -56,25 +56,20 @@ docker run --rm --name sshd --hostname sshd --network netssh -it sergimc/sshd:18
 
 #### Exemple en el hostpam connectant usuari ldap i local via ssh.
 ```
-[root@host docker]# ssh pere@172.19.0.4
-The authenticity of host '172.19.0.4 (172.19.0.4)' can't be established.
-ECDSA key fingerprint is SHA256:fTqApouvRlbIlBgfMaoLqUbm4VradotAMFGn3lP+7os.
-ECDSA key fingerprint is MD5:04:cd:77:90:57:51:d9:3e:67:6c:75:65:98:50:65:10.
+[root@host docker]# ssh pau@172.19.0.4 -p 1022
+The authenticity of host '[172.20.0.4]:1022 ([172.20.0.4]:1022)' can't be established.
+ECDSA key fingerprint is SHA256:AMbG8pBEoj6Ln1Who3y5Iyw9VUSUihRT2D1gJvu44iQ.
+ECDSA key fingerprint is MD5:dd:25:66:5b:c9:8d:1b:34:d7:ba:f2:90:db:93:4e:25.
 Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added '172.19.0.4' (ECDSA) to the list of known hosts.
-pere@172.19.0.4's password: 
-Creating directory '/tmp/home/pere'.
+Warning: Permanently added '[172.20.0.4]:1022' (ECDSA) to the list of known hosts.
+pau@172.20.0.4's password: 
+Creating directory '/tmp/home/pau'.
 
 [pere@sshd ~]$ pwd
 /tmp/home/pere
 
-[pere@sshd ~]$ ssh local01@172.19.0.4
-The authenticity of host '172.19.0.4 (172.19.0.4)' can't be established.
-ECDSA key fingerprint is SHA256:fTqApouvRlbIlBgfMaoLqUbm4VradotAMFGn3lP+7os.
-ECDSA key fingerprint is MD5:04:cd:77:90:57:51:d9:3e:67:6c:75:65:98:50:65:10.
-Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added '172.19.0.4' (ECDSA) to the list of known hosts.
-local01@172.19.0.4's password: 
+[root@host pam.d]# ssh local01@172.19.0.4 -p 1022
+local01@172.20.0.4's password: 
 
 [local01@sshd ~]$ pwd
 /home/local01
