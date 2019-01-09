@@ -90,7 +90,7 @@ auth    required    pam_listfile.so onerr=fail item=user sense=deny file=/etc/us
 
 #### Exemple en el hostpam connectant usuari ldap marta via ssh.
 ```
-[root@sshd docker]# ssh marta@172.19.0.4
+[root@sshd docker]# ssh marta@172.19.0.4 -p 1022
 The authenticity of host '172.19.0.4 (172.19.0.4)' can't be established.
 ECDSA key fingerprint is SHA256:fTqApouvRlbIlBgfMaoLqUbm4VradotAMFGn3lP+7os.
 ECDSA key fingerprint is MD5:04:cd:77:90:57:51:d9:3e:67:6c:75:65:98:50:65:10.
