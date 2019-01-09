@@ -14,7 +14,7 @@
 
 		<!-- Volume definitions -->
 
-<volume user="*" fstype="tmpfs" mountpoint="~/%(USER)" options="size=75M,uid=%(USER),mode=0755"
+<volume user="*" fstype="tmpfs" mountpoint="~/%(USER)" options="size=10M,uid=%(USER),mode=0755"
 />
 
 		<!-- pam_mount parameters: General tunables -->
