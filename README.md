@@ -65,8 +65,8 @@ Warning: Permanently added '[172.20.0.4]:1022' (ECDSA) to the list of known host
 pau@172.20.0.4's password: 
 Creating directory '/tmp/home/pau'.
 
-[pere@sshd ~]$ pwd
-/tmp/home/pere
+[pau@sshd ~]$ pwd
+/tmp/home/pau
 
 [root@host pam.d]# ssh local01@172.19.0.4 -p 1022
 local01@172.20.0.4's password: 
