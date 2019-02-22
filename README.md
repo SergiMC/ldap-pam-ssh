@@ -4,6 +4,10 @@
 
 Podeu trobar les imatges docker al Dockerhub de [sergimc](https://hub.docker.com/u/sergimc/)
 
+### Imatges en dockerhub:
+-ldap: [ldap ssh](https://cloud.docker.com/repository/docker/sergimc/ldapssh).
+-hostpam: [hostpam](https://cloud.docker.com/repository/docker/sergimc/hostpam) amb tag: 18ssh.
+
 ASIX M06-ASO Escola del treball de barcelona
 
 ### Imatges:
