@@ -1,7 +1,9 @@
 # SSH PAM
 ## @edt Sergi Muñoz Carmona ASIX M06 2018-2019
 
+### Imatge HOSTPAM en Dockerhub:
 Podeu trobar les imatges docker al Dockerhub de [sergimc](https://hub.docker.com/u/sergimc/)
+* **hostpam:** [hostpam](https://cloud.docker.com/repository/docker/sergimc/hostpam) (amb tag: 18ssh)
 
 ASIX M06-ASO Escola del treball de barcelona
 
