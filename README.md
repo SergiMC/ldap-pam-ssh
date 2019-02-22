@@ -9,8 +9,6 @@ Podeu trobar les imatges docker al Dockerhub de [sergimc](https://hub.docker.com
 * **hostpam:** [hostpam](https://cloud.docker.com/repository/docker/sergimc/hostpam) (amb tag: 18ssh)
 * **ssh:** [ssh server](https://cloud.docker.com/repository/docker/sergimc/sshd)
 
-ASIX M06-ASO Escola del treball de barcelona
-
 ### Imatges:
 
 * **sergimc/ldapssh:18base** Servidor ldap amb les dades de la base de dades dc=edt,dc=org Requereix de l'ús d'un 
