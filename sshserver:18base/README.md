@@ -2,7 +2,9 @@
 
 ## @edt Sergi Muñoz Carmona ASIX M06 2018-2019
 
+### Imatge SSH server en Dockerhub:
 Podeu trobar les imatges docker al Dockerhub de [sergimc](https://hub.docker.com/u/sergimc/)
+* **ssh:** [ssh server](https://cloud.docker.com/repository/docker/sergimc/sshd)
 
 ASIX M06-ASO Escola del treball de barcelona
 
